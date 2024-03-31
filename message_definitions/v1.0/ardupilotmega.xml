@@ -340,6 +340,16 @@
         <param index="6" label="Longitude">Longitude</param>
         <param index="7" label="Altitude" units="m">Altitude, not used. Should be sent as NaN. May be supported in a future version of this message.</param>
       </entry>
+      <entry value="43004" name="MAV_CMD_DO_SET_TARGET" hasLocation="false" isDestination="false">
+        <description>Sets the target for a optical sensor set or the vehicle itself. This can then be used by the vehicle's control system to control the vehicle attitude and the attitude of various sensors such as cameras.</description>
+        <param index="1">Empty</param>
+        <param index="2">Empty</param>
+        <param index="3">Empty</param>
+        <param index="4">Empty</param>
+        <param index="5">x</param>
+        <param index="6">y</param>
+        <param index="7">Empty</param>
+      </entry>
     </enum>
     <enum name="SCRIPTING_CMD">
       <entry value="0" name="SCRIPTING_CMD_REPL_START">
